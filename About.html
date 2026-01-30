@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AboutStyle.css">
+    <title>Document</title>
+<!-- Here I linked google fonts to my code, the first two lines connect to google fonts, the third line gets the specific font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+<!-- To make the navigation bar at the top of the screen, I have made a header class for the entire navbar itself, a specific class for the home button, since I want it to be on
+     a different side to the other buttons, and the other buttons are contained in this own list class. -->
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <!-- Different class than the rest of the buttons to allow it to be styled differently -->
+            <a class="home-link" href="Index.html">Home</a>
+            <!-- Link the href=" " to a html file to change which HTML file is in use, changes the website for example -->
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Works.html">My Works</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- The first section, this is the main section of the website, while I could make it into a section class like the others, I have decided not to since its the main part.
+     Often times, the main section of a website is named "The hero." Therefor, I decided to name this main class the hero because of that. -->
+    <main class="first-section">
+    <div class="intro-text">
+      <h1>My name is Jacob Sykes</h1>
+      <p>I am a game developer, and I always put a lot of thought into stories I make for them, having a strong focus for storytelling and worldbuilding. Making meaningful narriatives is one of my favorite parts of the creative process, so I have many ideas for new games, characters, worlds and plotlines. I am always pushing myself to refine my skills by experimenting with new concepts, to make my ideas a reality, with as much care and detail as possible.</p>
+    </div>
+  </main>
+
+<section class="second-section">
+  <div class="timeline-container">
+    <h2>My Journey</h2>
+
+    <div class="timeline">
+      <div class="timeline-point" data-period="scratch">
+        <span>2018–2023: Scratch Period</span>
+      </div>
+
+      <div class="timeline-point" data-period="roblox">
+        <span>2020: Roblox Period</span>
+      </div>
+
+      <!-- Add more periods as needed -->
+    </div>
+
+    <div class="timeline-details">
+      <div class="text-content">
+        <h3 id="period-title">Hover over a period</h3>
+        <p id="period-description"></p>
+      </div>
+
+      <div class="image-content">
+        <button id="prev-img">←</button>
+
+        <!-- Dynamic media container (image OR video goes here) -->
+        <div id="media-container"></div>
+
+        <button id="next-img">→</button>
+
+        <p id="image-caption"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- This imports javascript into the code. -->
+  <script src="snapscroll.js"></script>
+  <script src="returntotop.js"></script>
+  <script src="AboutTimeline.js"></script>
+
+</body>
+</html>

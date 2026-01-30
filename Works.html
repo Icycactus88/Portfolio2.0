@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WorksStyle.css">
+    <title>Document</title>
+<!-- Here I linked google fonts to my code, the first two lines connect to google fonts, the third line gets the specific font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="loading-screen"> <!-- make the loading screen exist, its at the top to make it show at the top. -->
+    <div class="loader-text">LOADING...</div>
+</div>
+
+<!-- To make the navigation bar at the top of the screen, I have made a header class for the entire navbar itself, a specific class for the home button, since I want it to be on
+     a different side to the other buttons, and the other buttons are contained in this own list class. -->
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <!-- Different class than the rest of the buttons to allow it to be styled differently -->
+            <a class="home-link" href="Index.html">Home</a>
+            <!-- Link the href=" " to a html file to change which HTML file is in use, changes the website for example -->
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Works.html">My Works</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- The first section, this is the main section of the website, while I could make it into a section class like the others, I have decided not to since its the main part.
+     Often times, the main section of a website is named "The hero." Therefor, I decided to name this main class the hero because of that. -->
+    <main class="first-section">
+    <div class="intro-text">
+      <h1>MY WORKS</h1>
+      <p>As a Developer, I have worked on many Projects ranging from Games, Tools, Models and 3D renders in the past.
+      <p>I have spent countless hours working and refining my creations to perfection, and all of them to be as accessible to me to add to my other projects, and to modify to fit them.
+      </p>Below is a gallery of all my best work.
+    </div>
+  </main>
+
+
+<section class="second-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/3n527qiCHCY?autoplay=1&mute=1&loop=1&playlist=3n527qiCHCY&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+    <div class="content">
+        <h2>GAMES</h2>
+        <p>Below is a list of my most notable games</p>
+    </div>
+</section>
+
+<section class="third-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>RESPAWN</h2>
+      <p>Fight countless waves of enemies in a retro synthwave type enviroment. As time progresses, more will come, meet your quota, and you can leave. But if your too slow, you'll have to fight an army, <em>which you might not survive.</em></p>
+  </div>
+
+  <div class="respawn-button-row">
+      <button id="ViewRespawn">→</button>
+      <span class="respawn-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="fourth-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>RETURN TO RESPAWN</h2>
+      <p>The Sequel to Respawn, Return to respawn as the last surviving member of the CleanUp Crew, and face the creations of the Respawn Machine, upgrade yourself, and find a way to shut it down, before its creations <em>shut down you.</em></p>
+  </div>
+
+  <div class="ReturnRespawn-button-row">
+      <button id="ViewReturnRespawn">→</button>
+      <span class="ReturnRespawn-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="fifth-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>HORSEMEN: FAMINE</h2>
+      <p>Once a cook, you now have no food. You scour the wasteland, meeting with other survivors, but you soon come to realise a truth, one that becomes impossible to ignore. Hunger rules everyone. Hunger rules the wild. But there’s a terrifying difference between you and the creatures stalking the wasteland.</p>
+
+<p><em>Your hunger is for survival. Theirs is for <strong>you</strong></em>.</p>
+  </div>
+
+  <div class="Famine-button-row">
+      <button id="ViewFamine">→</button>
+      <span class="Famine-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="sixth-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>HORSEMEN: PESTILENCE</h2>
+      <p>In a world ridden with pestilence and conquest, where not even god can save humanity, one awakens. One who has been raised to fight against this plague, raised to break the endless chain of slaughter. But the time is ticking, and soon the next Extermination will begin.<p><p><em>Don't waste your time, or time will waste you.</em></p>
+  </div>
+
+  <div class="Pestilence-button-row">
+      <button id="ViewPestilence">→</button>
+      <span class="Pestilence-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="seventh-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>HORSEMEN: WAR</h2>
+      <p>An assasin is tasked to kill people who could be a potential influence to war being waged. The world has had a history of War, and it is his Job to put that history to an end.<p><p>That is, <em>until history stops repeating itself, and everything goes wrong.</em></p>
+  </div>
+
+  <div class="War-button-row">
+      <button id="ViewWar">→</button>
+      <span class="War-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="eigth-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>DEVASTATION</h2>
+      <p>Humanity has tried countless ways to keep leaders, and the people they ruled, Safe. But corruption eventually sparked the Fourth War of the Solar System. After its end, humanity had expanded across the universe, yet still needed guidance. So an immortal leader was created to end conflict forever. However, he believed war would always follow as long as humanity exists. <p> <p> And so to end the effect, <em>he would have to remove the cause.</em></p>
+  </div>
+
+  <div class="Devastation-button-row">
+      <button id="ViewDevastation">→</button>
+      <span class="Devastation-label">VIEW GAME</span>
+  </div>
+</section>
+
+<section class="ninth-section">
+  <div class="video-background">
+    <iframe
+      src="https://www.youtube.com/embed/oNr7A1Hc3qQ?autoplay=1&mute=1&loop=1&playlist=oNr7A1Hc3qQ&controls=0&modestbranding=1&showinfo=0"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="content">
+      <h2>RECORDS OF DESTRUCTION</h2>
+      <p>Shrunk down on a Vinyl Record, the grooves are to scale of mountains, and making your way through these canyons, you will soon learn your not alone. Fight your way through, acquire upgrades, and slowly make your way to the centre. But let it be known, the Vinyl is being used, and the stylus, as big as the canyons, quickly approaches. <p>The closer you get to the centre, <em>the faster it gets to you.</em></p>
+  </div>
+
+  <div class="Records-button-row">
+      <button id="ViewRecords">→</button>
+      <span class="Records-label">VIEW GAME</span>
+  </div>
+</section>
+
+<!-- Back to top button. This merely makes a back to top button exist, I will write the code for it in Javascript. -->
+<button id="ReturnTop">↑</button>
+
+<!-- This imports javascript into the code. -->
+  <script src="loading.js"></script>
+  <script src="returntotop.js"></script>
+  <script src="snapscroll.js"></script>
+
+</body>
+</html>

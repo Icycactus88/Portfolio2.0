@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ContactStyle.css">
+    <title>Contact</title>
+<!-- Here I linked google fonts to my code, the first two lines connect to google fonts, the third line gets the specific font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<!-- Here I linked to font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<!-- To make the navigation bar at the top of the screen, I have made a header class for the entire navbar itself, a specific class for the home button, since I want it to be on
+     a different side to the other buttons, and the other buttons are contained in this own list class. -->
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <!-- Different class than the rest of the buttons to allow it to be styled differently -->
+            <a class="home-link" href="Index.html">Home</a>
+            <!-- Link the href=" " to a html file to change which HTML file is in use, changes the website for example -->
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Works.html">My Works</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<section class="contact-section">
+
+  <div class="contact-title">
+    <h2>Get in touch</h2>
+    <p>Have a question or want to work together? I'd love to hear from you.</p>
+  </div>
+
+
+<div class="contact-info">
+  <h2>Contact Information</h2>
+
+<p>
+  <span class="icon-box"><i class="fa-solid fa-envelope"></i></span>
+  <a href="mailto:jacobsyk@bfk.no">Jacobsyk@bfk.no</a>
+</p>
+
+<p>
+  <span class="icon-box"><i class="fa-solid fa-phone"></i></span>
+  <a href="tel:+4790990028">+47 909 90 028</a>
+</p>
+
+
+
+<div class="socials">
+  <h2>Follow Me</h2>
+
+  <div class="socials-links">
+    <a href="https://github.com/" target="_blank" class="social-link">
+      <span class="icon-box"><i class="fa-brands fa-github"></i></span>
+      GitHub
+    </a>
+
+    <a href="https://youtube.com/" target="_blank" class="social-link">
+      <span class="icon-box"><i class="fa-brands fa-youtube"></i></span>
+      YouTube
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="social-link">
+      <span class="icon-box"><i class="fa-brands fa-x-twitter"></i></span>
+      Twitter
+    </a>
+  </div>
+</div>
+
+
+
+  <div class="Bottom-text">
+    <h2>Be afraid to contact me</h2>
+    <p>I would be very interested in any new oppertunities and projects, I would also be interested in visual studio having a spelling mistake checker.</p>
+    <p>Whether you have a question or just want to say hi, feel free to reach out.</p>
+  </div>
+</section>
+
+<!-- This imports javascript into the code. -->
+  <script src="returntotop.js"></script>

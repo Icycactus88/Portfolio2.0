@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Indexstyle.css">
+    <title>Portfolio</title>
+<!-- Here I linked google fonts to my code, the first two lines connect to google fonts, the third line gets the specific font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+
+<div id="loading-screen"> <!-- make the loading screen exist, its at the top to make it show at the top. There is a loading screen to let the videos play just a little bit to make it feel like actual backgrounds. -->
+    <div class="load-text">LOADING...</div>
+</div>
+
+<!-- To make the navigation bar at the top of the screen, I have made a header class for the entire navbar itself, a specific class for the home button, since I want it to be on
+     a different side to the other buttons, and the other buttons are contained in this own list class. -->
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <!-- Different class than the rest of the buttons to allow it to be styled differently -->
+            <a class="home-link" href="Index.html">Home</a>
+            <!-- Link the href=" " to a html file to change which HTML file is in use, changes the website for example -->
+            <ul>
+                <li><a href="About.html">About Me</a></li>
+                <li><a href="Works.html">My Works</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- The first section, this is the main section of the website, while I could make it into a section class like the others, I have decided not to since its the main part.
+     Often times, the main section of a website is named "The hero." Therefor, I decided to name this main class the hero because of that. -->
+    <main class="first-section">
+    <div class="intro-text">
+      <h1>Hello! I am Jacob Sykes</h1>
+      <p>I am a Game Developer who enjoys making in depth stories for the games I make.
+      <p>I believe that some of the best stories are the ones that don’t just outright tell you what is going on, that way you have to put the pieces together yourself as the plot slowly unravels.
+    </p>I plan on using my technological knowledge to put these beliefs of mine in my own games.
+    </div>
+    <div class="portrait">
+      <img src="assets/profile.jpg" />
+    </div>
+  </main>
+
+<!-- The second section. Since this isnt the main part, its now a section class. -->
+<section class="second-section">
+    <div class="content">
+        <h2>About me</h2>
+        <p>This is where the about me section goes (there will be another page with this as well).</p>
+    </div>
+</section>
+
+<!-- The third section. This one contains the games, which you can also download by clicking on them. -->
+<section class="third-section">
+    <div class="content">
+        <h2>My works</h2>
+        <p>This is where the my works section goes (there will be another page with this as well).</p>
+    </div>
+
+<!-- Scrolls through the games -->
+<!-- Scrolls through the games -->
+<div class="GameScroller">
+
+    <button class="scroll-btn left">‹</button>
+
+    <!-- List of all my work -->
+     
+    <div class="GameContainer">
+
+        <!--
+            COPY AND PASTE THIS WITHOUT THE COMMENTS TO SET UP ANOTHER GAME PROFILE.
+
+            <div class="GameItem">
+                <div class="GamePreview">
+                    <a href="#" download="Temp">
+                        <img src="assets/Image.png" alt="Image">
+                        <video src="assets/Video.mp4" muted loop playsinline></video>
+                    </a>
+                </div>
+                <p class="GameName">Temp</p>
+            </div>
+        -->
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="Downloads/FinalBuild01.12.25.zip" download="Respawn.zip">
+            <img src="assets/RespawnPoster.png" alt="Respawn">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1&showinfo=0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Respawn</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/TempGamePicture.webp" alt="Another Game">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Return to Respawn</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/Temp.png" alt="Image">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Seating Plan Simulator 2026</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/Temp.png" alt="Image">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Horsemen: Famine</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/FilmPosterA3.png" alt="Horsemen Pestilence">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Horsemen: Pestilence</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/Temp.png" alt="Image">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Horsemen: War</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/Temp.png" alt="Image">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Devastation</p>
+</div>
+
+<div class="GameItem">
+    <div class="GamePreview">
+        <a href="#">
+            <img src="assets/Temp.png" alt="Image">
+            <iframe
+                class="PreviewVideo"
+                src="https://www.youtube.com/embed/1LBES67WY9U?autoplay=1&mute=1&loop=1&playlist=1LBES67WY9U&controls=0&modestbranding=1"
+                allow="autoplay; encrypted-media"
+                allowfullscreen>
+            </iframe>
+        </a>
+    </div>
+    <p class="GameName">Records of Destruction</p>
+</div>
+
+
+
+    </div>
+
+    <button class="scroll-btn right">›</button>
+
+</div>
+
+</section>
+
+
+<!-- Back to top button. This merely makes a back to top button exist, I will write the code for it in Javascript. -->
+<button id="ReturnTop">↑</button>
+
+<!-- This imports javascript into the code. -->
+  <script src="returntotop.js"></script>
+  <script src="snapscroll.js"></script>
+  <script src="Gamescroller.js"></script>
+  <script src="loading.js"></script>
+
+</body>
+</html>
