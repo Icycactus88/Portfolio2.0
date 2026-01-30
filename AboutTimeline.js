@@ -23,7 +23,7 @@ const timelineData = {
       { type: "image", src: "assets/scratch1.png", caption: "My first game, 'Untitled 1' - 11 Dec 2018" },
       { type: "video", src: "https://www.youtube.com/embed/_fHAuaoTZAE?autoplay=1&mute=1&loop=1&playlist=_fHAuaoTZAE", caption: "Maze game 'Explorer' - 24 Jul 2020" },
       { type: "image", src: "assets/scratch3.png", caption: "Code for 'Explorer' - 24 Jul 2020" },
-      { type: "image", src: "assets/scratch4.png", caption: "Top:\n Original opening speech Code for 'Explorer', did not know how to merge two texts together, so instead it would say your username seperately.\nBottom:\n Example of merging three text items to add the username in the middle." },
+      { type: "image", src: "assets/Scratch4.png", caption: "Top:\n Original opening speech Code for 'Explorer', did not know how to merge two texts together, so instead it would say your username seperately.\nBottom:\n Example of merging three text items to add the username in the middle." },
       { type: "video", src: "https://www.youtube.com/embed/xSHVbrAASTs?autoplay=1&mute=1&loop=1&playlist=xSHVbrAASTs", caption: "Short Platformer Game 'Twilight' - 17 Dec 2020" },
       { type: "video", src: "https://www.youtube.com/embed/CcKBA4FVPhI?autoplay=1&mute=1&loop=1&playlist=CcKBA4FVPhI", caption: "First Version of my First Person Shooter game 'Devastation' - 15 May 2022" },
       { type: "video", src: "https://www.youtube.com/embed/lWiwtXKkI3k?autoplay=1&mute=1&loop=1&playlist=lWiwtXKkI3k", caption: "Latest Version of my First Person Shooter game 'Devastation' - 9 Feb 2023" }
